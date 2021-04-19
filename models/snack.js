@@ -1,0 +1,34 @@
+module.exports = [
+    {
+        "name":"cappuccino",
+        "price":"3.5"
+    },
+    {
+        "name":"latte",
+        "price":"3"
+    },
+    {
+        "name":"flat_white",
+        "price":"3.5"
+    },
+    {
+        "name":"long_black",
+        "price":"4"
+    },
+    {
+        "name":"plain_biscuit",
+        "price":"2.3"
+    },
+    {
+        "name":"fancy_biscuit",
+        "price":"3.5"
+    },
+    {
+        "name":"small_cake ",
+        "price":"3.0"
+    },
+    {
+        "name":"big_cake",
+        "price":"4.0"
+    }
+]

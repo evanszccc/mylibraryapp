@@ -1,12 +1,12 @@
 {
-  "name": "mylibraryapp",
+  "name": "van_snacks",
   "version": "1.0.0",
-  "description": "my workshop demo",
+  "description": "snacks in a van runs a fleet of food trucks that works popup cafes",
   "main": "app.js",
   "scripts": {
     "start":"node app.js"
   },
-  "author": "Greg",
+  "author": "WIT71",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"

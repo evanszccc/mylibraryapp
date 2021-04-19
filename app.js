@@ -1,20 +1,17 @@
 const express = require('express')
-const bodyParser = require('body-parser')
-const app = express()
-app.use(bodyParser.json())  
+const app = express() 
 
-// set up author routes
-const authorRouter = require('./routes/authorRouter')
+// set up snack routes
+const snackRouter = require('./routes/snackRouter')
 
 // handler for GET home page
 app.get('/', (req, res) => {
-    res.send('<h1>Library System</h1>')
+    res.send('<h1>Snacks in van</h1>')
 })
 
-// handler for author-management requests
-// author routes are added onto the end of '/author-management'
-app.use('/author-management', authorRouter)
+// handler for snack-management requests
+app.use('/snack-management', snackRouter)
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log('The library app is running')
+    console.log('The van-snacks app is running')
 })
